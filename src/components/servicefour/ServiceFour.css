@@ -4,6 +4,8 @@
 .service4-con {
     max-width: 1200px;
     margin: 0 auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 .service4-con h1 {
     font-size: 38px;

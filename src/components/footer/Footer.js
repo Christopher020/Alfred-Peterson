@@ -69,7 +69,7 @@ const Footer = () => {
             <div className="season"><h5>&copy;2023</h5></div>
           </div>
           <div className="brand">
-           <h5>created by Shęriff</h5></div>
+           <h5>created by Shęriff&DaKing</h5></div>
         </div>
       </div>
     );

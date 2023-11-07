@@ -12,7 +12,7 @@ const ServiceFour = () => {
                     </p>
                 </div>
                 <div className="left">
-                <h2>Structural & Piping Fabrication and Inspection Services</h2>
+                <h2>NDT Services and Inspection</h2>
                 <div className="under"></div>
                 <div className="image"></div>
                 
