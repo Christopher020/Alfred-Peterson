@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './Portfolio.css'
 
 const Portfolio = () => {
@@ -9,48 +10,80 @@ const Portfolio = () => {
             <div className="port-row">
                 <div className="row1">
                     <div className="img">
-                        <div className="info">
-                            <p>Lorem</p>
-                        </div>
+                        <Link to='WemaPage'>
+                            <div className="info">
+                                <p>Wema Bank PLC</p>
+                            </div>
+                        </Link>
                     </div>
                 </div>
-                <div className="row1">
+                <div className="row2">
                     <div className="img">
-                        <div className="info">
-                            <p>Lorem</p>
-                        </div>
+                        <Link to='UniliverPage'>
+                            <div className="info">
+                                <p>UNILEVER NIGERIA PLC</p>
+                            </div>
+                        </Link>
                     </div>
                 </div>
-                <div className="row1">
+                <div className="row3">
                     <div className="img">
-                        <div className="info">
-                            <p>Lorem</p>
-                        </div>
+                        <Link to='OceaneringPage'>
+                            <div className="info">
+                                <p>OCEANEERING DATA SERVICES</p>
+                            </div>
+                        </Link>
                     </div>
                 </div>
+                <div className="row4">
+                    <div className="img">
+                        <Link to='RignetPage'>
+                            <div className="info">
+                                <p>RigNet (INC.) USA</p>
+                            </div>
+                        </Link>
+                    </div>
+                </div>
+                
             </div>
             <div className="port-row">
-                <div className="row1">
+                <div className="row5">
                     <div className="img">
-                        <div className="info">
-                            <p>Lorem</p>
-                        </div>
+                        <Link to='/MobilPage'>
+                            <div className="info">
+                                <p>MOBIL PRODUCING NIGERIA UNLIMITED</p>
+                            </div>
+                        </Link>
                     </div>
                 </div>
-                <div className="row1">
+                <div className="row6">
                     <div className="img">
-                        <div className="info">
-                            <p>Lorem</p>
-                        </div>
+                        <Link to='/NoblePage'>
+                            <div className="info">
+                                <p>NOBLE DRILLING NIGERIA LTD</p>
+                            </div>
+                        </Link>
                     </div>
                 </div>
-                <div className="row1">
+                <div className="row7">
                     <div className="img">
-                        <div className="info">
-                            <p>Lorem</p>
-                        </div>
+                        <Link to='DeltaPage'>
+                            <div className="info">
+                                <p>DELTA AFRIK ENGINEERING LTD</p>
+                            </div>
+                        </Link>
                     </div>
                 </div>
+                <div className="row8">
+                    <div className="img">
+                        <Link to='LagosPage'>
+                            <div className="info">
+                                <p>LAGOS STATE WATER CORPORATION</p>
+                            </div>
+                        </Link>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>

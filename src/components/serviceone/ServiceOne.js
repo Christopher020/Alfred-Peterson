@@ -5,8 +5,8 @@ const ServiceOne = () => {
   return (
     <div className='services'>
         <div className="service-con">
-            <h1>Services</h1>
-            <div className="underline"></div>
+            {/* <h1>Services</h1>
+            <div className="underline"></div> */}
             <div className="content">
                 <div className="left">
                 <h2>Telecommunications</h2>

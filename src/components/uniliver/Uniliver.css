@@ -1,56 +1,57 @@
-.services {
+.uniliver {
     width: 100%;
-    padding-top: 5rem;
 }
-.service-con {
+.uniliver-con {
     max-width: 1200px;
     margin: 0 auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
-.service-con h1 {
-    margin-top: 1rem;
-    font-size: 35px;
-    font-weight: 400;
+.uniliver-con h1 {
+    font-size: 38px;
     text-align: center;
+    margin-top: 1rem;
 }
-.service-con .underline {
+.uniliver-con .underline {
     height: 2px;
     width: 130px;
     background: #CED0D0;
     margin-left: 35rem;
 }
-.content {
+.uni-content {
     margin-top: 2.5rem;
     display: flex;
 }
-.content .left {
+.uni-content .left {
     width: 50%;
-    margin-right: 2rem;
+    margin-left: 2rem;
 }
-.content .left .image {
+.uni-content .left .image {
     height: 50vh;
-    background: url('../../assets/telecom.avif') no-repeat center center/cover;
+    background: url('../../assets/unilever-logo.png') no-repeat center center/cover;
+    margin-bottom: 30px;
 }
-.content .left h2 {
+.uni-content .left h2 {
     font-size: 30px;
     font-weight: 600;
 }
-.service-con .left .under {
+.uniliver-con .left .under {
     height: 2px;
     width: 180px;
     margin-top: .5rem;
     margin-bottom: 1rem;
     background: #CED0D0;
 }
-.content .left p {
+.uni-content .left p {
     font-size: 16px;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.content .right {
+.uni-content .right {
     width: 50%;
 }
-.content .right p {
+.uni-content .right p {
     font-size: 16px;
-    margin-top: 3.6rem;
+    margin-top: 7rem;
 }

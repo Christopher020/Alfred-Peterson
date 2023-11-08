@@ -10,6 +10,14 @@ import MaterialPage from './routes/MaterialPage';
 import NDTPage from './routes/NDTPage'
 import Corrosion from './routes/Corrosion';
 import ProvisionPage from './routes/ProvisionPage';
+import WemaPage from './routes/wemaPage';
+import UniliverPage from './routes/UniliverPage';
+import OceaneringPage from './routes/OceaneringPage';
+import RignetPage from './routes/RignetPage';
+import MobilPage from './routes/MobilPage';
+import NoblePage from './routes/NoblePage';
+import DeltaPage from './routes/DeltaPage';
+import LagosPage from './routes/LagosPage';
 
 
 
@@ -24,6 +32,14 @@ root.render(
       <Route path='/NDTPage' element={<NDTPage/>} />
       <Route path='/Corrosion' element={<Corrosion/>} />
       <Route path='/ProvisionPage' element={<ProvisionPage/>}/>
+      <Route path='/WemaPage' element={<WemaPage/>}/>
+      <Route path='/UniliverPage' element={<UniliverPage/>}/>
+      <Route path='/OceaneringPage' element={<OceaneringPage/>}/>
+      <Route path='/RignetPage' element={<RignetPage/>}/>
+      <Route path='/MobilPage' element={<MobilPage/>}/>
+      <Route path='/NoblePage' element={<NoblePage/>}/>
+      <Route path='/DeltaPage' element={<DeltaPage/>}/>
+      <Route path='/LagosPage' element={<LagosPage/>}/>
     </Routes>
   </BrowserRouter>
 
